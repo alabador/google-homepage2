@@ -75,3 +75,14 @@ table {
 	height: 40px; 
 	width: 500px;   
 }
+
+.material-icons {
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 15px; 
+}
+
+#search-icon {
+	font-size: 20px;
+	color:  rgb(177, 173, 173);
+}
