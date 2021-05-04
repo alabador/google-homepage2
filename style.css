@@ -76,10 +76,14 @@ table {
 	width: 450px;   
 }
 
+#search:hover {
+	box-shadow: 2px 1px 5px 1px  rgb(223, 217, 217);
+}
+
 .material-icons {
 	position: absolute;
 	margin-top: 12px;
-	margin-left: 15px; 
+	margin-left: 18px; 
 }
 
 #search-icon {
@@ -88,7 +92,7 @@ table {
 }
 
 #mic-icon {
-	margin-left: 420px;
+	margin-left: 416px;
 	font-size: 20px;
 	color: rgb(17, 150, 226);
 }
