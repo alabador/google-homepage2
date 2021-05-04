@@ -47,7 +47,7 @@ table {
 
 /* CSS Styles */
 
-#search-div {
+#center-div {
     padding: 25vh 0px; 
 }
 
@@ -57,3 +57,21 @@ table {
     text-align: center;
 }
 
+#searchbar-div {
+	display: block;
+    margin: auto;
+    text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;  
+}
+
+#search {
+	background-color: white; 
+	border-style: solid;
+	border-radius: 25px;
+	border-color: rgb(223, 217, 217);
+	border-width: 1px;
+	color: white; 
+	height: 40px; 
+	width: 500px;   
+}
