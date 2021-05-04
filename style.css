@@ -73,7 +73,7 @@ table {
 	border-width: 1px;
 	color: white; 
 	height: 40px; 
-	width: 500px;   
+	width: 450px;   
 }
 
 .material-icons {
@@ -85,4 +85,10 @@ table {
 #search-icon {
 	font-size: 20px;
 	color:  rgb(177, 173, 173);
+}
+
+#mic-icon {
+	margin-left: 420px;
+	font-size: 20px;
+	color: rgb(17, 150, 226);
 }
