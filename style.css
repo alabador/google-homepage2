@@ -48,7 +48,7 @@ table {
 /* CSS Styles */
 
 #center-div {
-    padding: 25vh 0px; 
+    padding: 20vh 0px; 
 }
 
 #google-logo {
@@ -95,4 +95,19 @@ table {
 	margin-left: 416px;
 	font-size: 20px;
 	color: rgb(17, 150, 226);
+}
+
+header {
+	margin-top: 24px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	margin-left: 14px;
+}
+
+.nav-link {
+	display: inline;
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+	font-weight: 200;
 }
