@@ -98,7 +98,7 @@ table {
 }
 
 header {
-	margin-top: 24px;
+	margin-top: 8px;
 	font-family: arial, sans-serif;
 	font-size: 13px;
 	margin-left: 14px;
@@ -110,7 +110,7 @@ header {
 
 .nav-link {
 	display: inline;
-	padding: 8px;
+	margin: 0 12px;
 	text-decoration: none;
 	color: black;
 	font-weight: 200;
@@ -132,7 +132,17 @@ header {
 	position: static;
 	margin-top: 0;
 	margin-left: 0;
-	padding: 8px;
+	padding: 12px;	
+}
 
-	
+#sign-in {
+	background-color: rgb(21, 129, 230);
+	border: none;
+	height: 30px;
+	color:white;
+	font-family: arial, sans-serif;
+	line-height: 1em;
+	vertical-align: center;
+	padding: 8px 14px;
+	font-weight: 900;
 }
