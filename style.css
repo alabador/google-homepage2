@@ -102,6 +102,10 @@ header {
 	font-family: arial, sans-serif;
 	font-size: 13px;
 	margin-left: 14px;
+	margin-right: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .nav-link {
@@ -110,4 +114,25 @@ header {
 	text-decoration: none;
 	color: black;
 	font-weight: 200;
+}
+
+#left-nav {
+	flex-wrap:nowrap;
+}
+
+#right-nav {
+	display: flex;
+	flex-wrap:nowrap;
+	align-items: center;
+	
+}
+
+#apps {
+	display: inline-block;
+	position: static;
+	margin-top: 0;
+	margin-left: 0;
+	padding: 8px;
+
+	
 }
