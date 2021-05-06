@@ -61,8 +61,8 @@ table {
 	display: block;
     margin: auto;
     text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;  
+	margin-top: 32px;
+	margin-bottom: 24px;  
 }
 
 #search {
@@ -132,7 +132,8 @@ header {
 	position: static;
 	margin-top: 0;
 	margin-left: 0;
-	padding: 12px;	
+	padding: 12px;
+	text-decoration: none;	
 }
 
 #sign-in {
@@ -145,4 +146,21 @@ header {
 	vertical-align: center;
 	padding: 8px 14px;
 	font-weight: 900;
+}
+
+#searchbuttons {
+	text-align: center;
+}
+
+.center-buttons {
+	margin: 4px;
+	height: 36px;
+	border: none; 
+	background-color: rgb(245, 245, 245);
+	padding: 4px 2em;
+	border-radius: 4px;
+}
+
+.center-buttons:hover {
+	border: 1px solid rgb(177, 173, 173);
 }
